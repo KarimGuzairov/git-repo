@@ -34,7 +34,8 @@ namespace GitTesting
 
         private void GetServiceButton_Click(object sender, EventArgs e)
         {
-
+            UsePowerShell getservice = new UsePowerShell();
+            getservice.Start("Get-Service"); 
         }
 
         private void Exit_Click(object sender, EventArgs e)
