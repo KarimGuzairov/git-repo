@@ -17,12 +17,27 @@ namespace GitTesting
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Description_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void StopServiceButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartServiceButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GetServiceButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
         {
 
         }
